@@ -1,0 +1,14 @@
+<table>
+				<tr ng-repeat="item in products">
+					<td class="thumb"><img ng-src="images/{{item.picture}}"></td>
+					<td>{{item.name}}</td>
+					<td><button ng-click="plusOne(item)" class="btn btn-danger">+</button><input type="number" ng-model="item.count"><button class="btn btn-danger" ng-click="minusOne(item)">-</button></td>
+					<td>{{item.price * item.count}} บาท</td>
+				</tr>
+				<tr>
+					<td>รวม</td>
+					<td></td>
+					<td></td>
+					<td>{{sum}} บาท</td>
+				</tr>
+			</table>

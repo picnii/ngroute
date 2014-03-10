@@ -16,6 +16,14 @@ app.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'pages/contact.html',
         controller: 'ContactCtrl'
       }).
+      when('/about', {
+        templateUrl: 'pages/about.html',
+        controller: 'AboutCtrl'
+      }).
+      when('/products', {
+        templateUrl: 'pages/products.html',
+        controller: 'ProductCtrl'
+      }).
       otherwise({
         redirectTo: '/'
       });
