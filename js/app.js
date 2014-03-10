@@ -9,7 +9,7 @@ app.config(['$routeProvider', function($routeProvider) {
         controller: 'MainCtrl'
       }).
       when('/bill', {
-        templateUrl: 'pages/bil.html',
+        templateUrl: 'pages/bill.html',
         controller: 'BillCtrl'
       }).
       otherwise({
