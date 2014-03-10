@@ -12,6 +12,10 @@ app.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'pages/bill.html',
         controller: 'BillCtrl'
       }).
+      when('/contact', {
+        templateUrl: 'pages/contact.html',
+        controller: 'ContactCtrl'
+      }).
       otherwise({
         redirectTo: '/'
       });

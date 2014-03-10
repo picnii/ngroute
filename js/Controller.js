@@ -5,5 +5,11 @@ function MainCtrl($scope)
 
 function BillCtrl($scope)
 {
+
+}
+
+
+function ContactCtrl($scope)
+{
 	
 }
